@@ -1,7 +1,7 @@
 version: '2'
 services:
   jenkins:
-    image: 'jenkins_with_docker:latest'
+    image: 'devsouza01/jenkins_with_docker:latest'
 #    image: 'jenkins/jenkins:lts'
     ports:
       - '8080:8080'
